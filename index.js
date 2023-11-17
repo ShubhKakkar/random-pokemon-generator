@@ -100,8 +100,6 @@ function comparePokemonStats(pokemonName1, pokemonName2) {
   return comparisonResult;
 }
 
-console.log(comparePokemonStats("Bulbasaur", "Charizard"));
-
 module.exports = {
   generateRandomPokemon,
   getPokemonById,
