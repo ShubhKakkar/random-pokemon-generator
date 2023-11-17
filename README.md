@@ -59,3 +59,4 @@ Shubham Kakkar
 
 ## Version History
 1.0.0 (2023-11-17): Initial release.
+1.0.4 (2023-11-17): Readme updated.
