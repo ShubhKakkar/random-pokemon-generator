@@ -12,11 +12,12 @@ npm install pokemon-stats-comparator
 
 ## Usage
 ```bash
-const { comparePokemonStats, getPokemonByName } = require('pokemon-stats-comparator');
+const { generateRandomPokemon, getPokemonById ,comparePokemonStats, getPokemonByName } = require('pokemon-stats-comparator');
 
 // Example usage
+const randomPokemon = generateRandomPokemon();
 const result = comparePokemonStats('Bulbasaur', 'Charmander');
-console.log(result);
+console.log(randomPokemon, result);
 ```
 ## Functions
 comparePokemonStats(pokemonName1, pokemonName2)
