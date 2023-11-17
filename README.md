@@ -12,12 +12,25 @@ npm install pokemon-stats-comparator
 
 ## Usage
 ```bash
-const { generateRandomPokemon, getPokemonById ,comparePokemonStats, getPokemonByName } = require('pokemon-stats-comparator');
+const { generateRandomPokemon, getPokemonById ,comparePokemonStats, getPokemonByName } = require('random-pokemon-generator');
 
 // Example usage
+
+// Example: Generate a random Pokemon
 const randomPokemon = generateRandomPokemon();
+console.log('Random Pokemon:', randomPokemon);
+
+// Example: Get Pokemon by name
+const pokemonDetailByName = getPokemonByName("Charizard");
+console.log(pokemonDetail);
+
+// Example: Get Pokemon by id
+const pokemonDetailById = getPokemonById(6);
+console.log(pokemonDetail);
+
+// Example: Compare the stats of two Pokemon
 const result = comparePokemonStats('Bulbasaur', 'Charmander');
-console.log(randomPokemon, result);
+console.log('Comparison Result:', result);
 ```
 ## Functions
 comparePokemonStats(pokemonName1, pokemonName2)
