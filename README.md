@@ -7,7 +7,7 @@ Pokemon Stats Comparator is an npm package that allows you to compare the stats 
 To install the Pokemon Stats Comparator package, use the following command:
 
 ```bash
-npm install pokemon-stats-comparator
+npm install random-pokemon-generator
 ```
 
 ## Usage
@@ -59,4 +59,4 @@ Shubham Kakkar
 
 ## Version History
 1.0.0 (2023-11-17): Initial release.
-1.0.4 (2023-11-17): Readme updated.
+1.0.5 (2023-11-17): Readme updated.
