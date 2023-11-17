@@ -1,6 +1,6 @@
-# Pokemon Stats Comparator
+# Random Pokemon Generator
 
-Pokemon Stats Comparator is an npm package that allows you to compare the stats of two Pokémon based on their base values. Whether you're a Pokémon trainer or a developer building a Pokémon-related application, this package can help you analyze and compare the power of different Pokémon.
+Random Pokemon Generator is an npm package that allows you to generate a random pokemon, get a pokemon details based on its id or name, compare the stats of two Pokémon based on their base values. Whether you're a Pokémon trainer or a developer building a Pokémon-related application, this package can help you analyze and compare the power of different Pokémon.
 
 ## Installation
 
@@ -59,4 +59,4 @@ Shubham Kakkar
 
 ## Version History
 1.0.0 (2023-11-17): Initial release.
-1.0.6 (2023-11-17): Readme updated.
+1.1.0 (2023-11-17): Readme updated.
